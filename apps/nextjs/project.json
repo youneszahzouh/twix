@@ -23,7 +23,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "nextjs:build",
-        "dev": true
+        "dev": true,
+        "proxyConfig": "apps/nextjs/proxy.conf.json"
       },
       "configurations": {
         "development": {
